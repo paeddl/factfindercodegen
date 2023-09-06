@@ -1,0 +1,10 @@
+# FlatRecordsResult
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**field_roles** | **map[string,string]** | A field to role mapping. For example, a field role may be &#x27;brand&#x27;, meaning that the field contains the manufacturer&#x27;s name. (key &#x3D; field role, value &#x3D; field name) | 
+**records** | [**\Swagger\Client\Model\FlatRecord[]**](FlatRecord.md) | A list of found records. Records for IDs which are not present in database will be missing. | 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
